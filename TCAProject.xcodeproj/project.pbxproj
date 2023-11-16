@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF12C67D2AFDA82000AACA7D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EF12C67C2AFDA82000AACA7D /* ComposableArchitecture */; };
+		EF352C082AFDB1AD005B0002 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF352C072AFDB1AD005B0002 /* Color.swift */; };
+		EF8DA3C02B032FC5009ADCB2 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA3BF2B032FC5009ADCB2 /* GroupView.swift */; };
+		EF8DA4002B04AC47009ADCB2 /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA3FF2B04AC47009ADCB2 /* AppSettingsView.swift */; };
+		EF8DA4032B04AC6E009ADCB2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4022B04AC6E009ADCB2 /* SearchBar.swift */; };
+		EF8DA40C2B05965E009ADCB2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA40B2B05965E009ADCB2 /* ViewExtension.swift */; };
+		EF8DA40F2B05AAA9009ADCB2 /* AppSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA40E2B05AAA9009ADCB2 /* AppSettingViewModel.swift */; };
 		EFD9B4CE2AFC969200D6611D /* TCAProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9B4CD2AFC969200D6611D /* TCAProjectApp.swift */; };
-		EFD9B4D02AFC969200D6611D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9B4CF2AFC969200D6611D /* ContentView.swift */; };
 		EFD9B4D22AFC969400D6611D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD9B4D12AFC969400D6611D /* Assets.xcassets */; };
 		EFD9B4D52AFC969400D6611D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD9B4D42AFC969400D6611D /* Preview Assets.xcassets */; };
 		EFD9B4DF2AFC969400D6611D /* TCAProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9B4DE2AFC969400D6611D /* TCAProjectTests.swift */; };
@@ -34,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF352C072AFDB1AD005B0002 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EF8DA3BF2B032FC5009ADCB2 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		EF8DA3FF2B04AC47009ADCB2 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		EF8DA4022B04AC6E009ADCB2 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		EF8DA40B2B05965E009ADCB2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		EF8DA40E2B05AAA9009ADCB2 /* AppSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingViewModel.swift; sourceTree = "<group>"; };
 		EFD9B4CA2AFC969200D6611D /* TCAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD9B4CD2AFC969200D6611D /* TCAProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAProjectApp.swift; sourceTree = "<group>"; };
-		EFD9B4CF2AFC969200D6611D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFD9B4D12AFC969400D6611D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD9B4D42AFC969400D6611D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFD9B4DA2AFC969400D6611D /* TCAProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF12C67D2AFDA82000AACA7D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +83,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF12C6712AFCAA9D00AACA7D /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9B4CD2AFC969200D6611D /* TCAProjectApp.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		EF12C6742AFCAABE00AACA7D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF12C6782AFCAAF500AACA7D /* Model */,
+				EF12C6772AFCAAF200AACA7D /* ViewModel */,
+				EF12C6762AFCAAD300AACA7D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EF12C6752AFCAAC300AACA7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9B4D12AFC969400D6611D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EF12C6762AFCAAD300AACA7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA3BF2B032FC5009ADCB2 /* GroupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF12C6772AFCAAF200AACA7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF12C6782AFCAAF500AACA7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF352C032AFDB18F005B0002 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA4082B05964C009ADCB2 /* Extension */,
+				EF352C042AFDB196005B0002 /* Color */,
+				EF12C6752AFCAAC300AACA7D /* Assets */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF352C042AFDB196005B0002 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EF352C072AFDB1AD005B0002 /* Color.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		EF8DA3FE2B04AC15009ADCB2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA4042B04AE98009ADCB2 /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EF8DA4012B04AC67009ADCB2 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA4022B04AC6E009ADCB2 /* SearchBar.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EF8DA4042B04AE98009ADCB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA40D2B05AA9D009ADCB2 /* ViewModel */,
+				EF8DA4012B04AC67009ADCB2 /* CustomView */,
+				EF8DA3FF2B04AC47009ADCB2 /* AppSettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF8DA4082B05964C009ADCB2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA40B2B05965E009ADCB2 /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF8DA40D2B05AA9D009ADCB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DA40E2B05AAA9009ADCB2 /* AppSettingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		EFD9B4C12AFC969200D6611D = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +214,10 @@
 		EFD9B4CC2AFC969200D6611D /* TCAProject */ = {
 			isa = PBXGroup;
 			children = (
-				EFD9B4CD2AFC969200D6611D /* TCAProjectApp.swift */,
-				EFD9B4CF2AFC969200D6611D /* ContentView.swift */,
-				EFD9B4D12AFC969400D6611D /* Assets.xcassets */,
+				EF8DA3FE2B04AC15009ADCB2 /* Settings */,
+				EF352C032AFDB18F005B0002 /* Utils */,
+				EF12C6712AFCAA9D00AACA7D /* Window */,
+				EF12C6742AFCAABE00AACA7D /* Main */,
 				EFD9B4D32AFC969400D6611D /* Preview Content */,
 			);
 			path = TCAProject;
@@ -143,6 +264,9 @@
 			dependencies = (
 			);
 			name = TCAProject;
+			packageProductDependencies = (
+				EF12C67C2AFDA82000AACA7D /* ComposableArchitecture */,
+			);
 			productName = TCAProject;
 			productReference = EFD9B4CA2AFC969200D6611D /* TCAProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +339,9 @@
 				Base,
 			);
 			mainGroup = EFD9B4C12AFC969200D6611D;
+			packageReferences = (
+				EF12C67B2AFDA82000AACA7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = EFD9B4CB2AFC969200D6611D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +384,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD9B4D02AFC969200D6611D /* ContentView.swift in Sources */,
+				EF8DA40C2B05965E009ADCB2 /* ViewExtension.swift in Sources */,
 				EFD9B4CE2AFC969200D6611D /* TCAProjectApp.swift in Sources */,
+				EF8DA4002B04AC47009ADCB2 /* AppSettingsView.swift in Sources */,
+				EF8DA3C02B032FC5009ADCB2 /* GroupView.swift in Sources */,
+				EF352C082AFDB1AD005B0002 /* Color.swift in Sources */,
+				EF8DA40F2B05AAA9009ADCB2 /* AppSettingViewModel.swift in Sources */,
+				EF8DA4032B04AC6E009ADCB2 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF12C67B2AFDA82000AACA7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF12C67C2AFDA82000AACA7D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF12C67B2AFDA82000AACA7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFD9B4C22AFC969200D6611D /* Project object */;
 }
