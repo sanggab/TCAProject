@@ -6,27 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EF3385D52D9E831A00E94A5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3385CF2D9E831A00E94A5A /* Preview Assets.xcassets */; };
-		EF3385D62D9E831A00E94A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3385D12D9E831A00E94A5A /* Assets.xcassets */; };
-		EF3385D72D9E831A00E94A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3385D22D9E831A00E94A5A /* ContentView.swift */; };
-		EF3385D82D9E831A00E94A5A /* TCAProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3385D32D9E831A00E94A5A /* TCAProjectApp.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		EF127DBA2D9E813D0039BC50 /* TCAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF3385CF2D9E831A00E94A5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EF3385D12D9E831A00E94A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF3385D22D9E831A00E94A5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EF3385D32D9E831A00E94A5A /* TCAProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAProjectApp.swift; sourceTree = "<group>"; };
-		EF3385F42D9E834400E94A5A /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = Core/Core.xcodeproj; sourceTree = "<group>"; };
-		EF33860F2D9E835200E94A5A /* Domain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Domain.xcodeproj; path = Domain/Domain.xcodeproj; sourceTree = "<group>"; };
-		EF33862F2D9E836200E94A5A /* ProfileDetail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProfileDetail.xcodeproj; path = ProfileDetail/ProfileDetail.xcodeproj; sourceTree = "<group>"; };
-		EF33864F2D9E836F00E94A5A /* ProfileEdit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProfileEdit.xcodeproj; path = ProfileEdit/ProfileEdit.xcodeproj; sourceTree = "<group>"; };
+		EF33863E2D9E836D00E94A5A /* ProfileEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF3386402D9E836D00E94A5A /* ProfileEdit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileEdit;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		EF127DB72D9E813D0039BC50 /* Frameworks */ = {
+		EF33863B2D9E836D00E94A5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,86 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF127DB12D9E813D0039BC50 = {
+		EF3386352D9E836D00E94A5A = {
 			isa = PBXGroup;
 			children = (
-				EF3385D42D9E831A00E94A5A /* TCAProject */,
-				EF3385DE2D9E832800E94A5A /* Core */,
-				EF3385DC2D9E832800E94A5A /* Domain */,
-				EF3385DD2D9E832800E94A5A /* Module */,
-				EF127DBB2D9E813D0039BC50 /* Products */,
+				EF3386402D9E836D00E94A5A /* ProfileEdit */,
+				EF33863F2D9E836D00E94A5A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF127DBB2D9E813D0039BC50 /* Products */ = {
+		EF33863F2D9E836D00E94A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF127DBA2D9E813D0039BC50 /* TCAProject.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EF3385D02D9E831A00E94A5A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EF3385CF2D9E831A00E94A5A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EF3385D42D9E831A00E94A5A /* TCAProject */ = {
-			isa = PBXGroup;
-			children = (
-				EF3385D02D9E831A00E94A5A /* Preview Content */,
-				EF3385D12D9E831A00E94A5A /* Assets.xcassets */,
-				EF3385D22D9E831A00E94A5A /* ContentView.swift */,
-				EF3385D32D9E831A00E94A5A /* TCAProjectApp.swift */,
-			);
-			path = TCAProject;
-			sourceTree = "<group>";
-		};
-		EF3385DC2D9E832800E94A5A /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				EF33860F2D9E835200E94A5A /* Domain.xcodeproj */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		EF3385DD2D9E832800E94A5A /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				EF33862F2D9E836200E94A5A /* ProfileDetail.xcodeproj */,
-				EF33864F2D9E836F00E94A5A /* ProfileEdit.xcodeproj */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		EF3385DE2D9E832800E94A5A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				EF3385F42D9E834400E94A5A /* Core.xcodeproj */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		EF3385F52D9E834400E94A5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EF3386102D9E835200E94A5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EF3386502D9E836F00E94A5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				EF33863E2D9E836D00E94A5A /* ProfileEdit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,99 +48,84 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF127DB92D9E813D0039BC50 /* TCAProject */ = {
+		EF33863D2D9E836D00E94A5A /* ProfileEdit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF127DC82D9E813F0039BC50 /* Build configuration list for PBXNativeTarget "TCAProject" */;
+			buildConfigurationList = EF33864C2D9E836F00E94A5A /* Build configuration list for PBXNativeTarget "ProfileEdit" */;
 			buildPhases = (
-				EF127DB62D9E813D0039BC50 /* Sources */,
-				EF127DB72D9E813D0039BC50 /* Frameworks */,
-				EF127DB82D9E813D0039BC50 /* Resources */,
+				EF33863A2D9E836D00E94A5A /* Sources */,
+				EF33863B2D9E836D00E94A5A /* Frameworks */,
+				EF33863C2D9E836D00E94A5A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TCAProject;
+			fileSystemSynchronizedGroups = (
+				EF3386402D9E836D00E94A5A /* ProfileEdit */,
+			);
+			name = ProfileEdit;
 			packageProductDependencies = (
 			);
-			productName = TCAProject;
-			productReference = EF127DBA2D9E813D0039BC50 /* TCAProject.app */;
+			productName = ProfileEdit;
+			productReference = EF33863E2D9E836D00E94A5A /* ProfileEdit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF127DB22D9E813D0039BC50 /* Project object */ = {
+		EF3386362D9E836D00E94A5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					EF127DB92D9E813D0039BC50 = {
+					EF33863D2D9E836D00E94A5A = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = EF127DB52D9E813D0039BC50 /* Build configuration list for PBXProject "TCAProject" */;
+			buildConfigurationList = EF3386392D9E836D00E94A5A /* Build configuration list for PBXProject "ProfileEdit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = EF127DB12D9E813D0039BC50;
+			mainGroup = EF3386352D9E836D00E94A5A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EF127DBB2D9E813D0039BC50 /* Products */;
+			productRefGroup = EF33863F2D9E836D00E94A5A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = EF3385F52D9E834400E94A5A /* Products */;
-					ProjectRef = EF3385F42D9E834400E94A5A /* Core.xcodeproj */;
-				},
-				{
-					ProductGroup = EF3386102D9E835200E94A5A /* Products */;
-					ProjectRef = EF33860F2D9E835200E94A5A /* Domain.xcodeproj */;
-				},
-				{
-					ProductGroup = EF3386502D9E836F00E94A5A /* Products */;
-					ProjectRef = EF33864F2D9E836F00E94A5A /* ProfileEdit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				EF127DB92D9E813D0039BC50 /* TCAProject */,
+				EF33863D2D9E836D00E94A5A /* ProfileEdit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF127DB82D9E813D0039BC50 /* Resources */ = {
+		EF33863C2D9E836D00E94A5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3385D52D9E831A00E94A5A /* Preview Assets.xcassets in Resources */,
-				EF3385D62D9E831A00E94A5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF127DB62D9E813D0039BC50 /* Sources */ = {
+		EF33863A2D9E836D00E94A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3385D72D9E831A00E94A5A /* ContentView.swift in Sources */,
-				EF3385D82D9E831A00E94A5A /* TCAProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF127DC62D9E813F0039BC50 /* Debug */ = {
+		EF33864A2D9E836F00E94A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		EF127DC72D9E813F0039BC50 /* Release */ = {
+		EF33864B2D9E836F00E94A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,14 +244,14 @@
 			};
 			name = Release;
 		};
-		EF127DC92D9E813F0039BC50 /* Debug */ = {
+		EF33864D2D9E836F00E94A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TCAProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProfileEdit/Preview Content\"";
 				DEVELOPMENT_TEAM = Z93APRK365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -355,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.TCAProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.ProfileEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -363,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		EF127DCA2D9E813F0039BC50 /* Release */ = {
+		EF33864E2D9E836F00E94A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TCAProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProfileEdit/Preview Content\"";
 				DEVELOPMENT_TEAM = Z93APRK365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.TCAProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.ProfileEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF127DB52D9E813D0039BC50 /* Build configuration list for PBXProject "TCAProject" */ = {
+		EF3386392D9E836D00E94A5A /* Build configuration list for PBXProject "ProfileEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF127DC62D9E813F0039BC50 /* Debug */,
-				EF127DC72D9E813F0039BC50 /* Release */,
+				EF33864A2D9E836F00E94A5A /* Debug */,
+				EF33864B2D9E836F00E94A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF127DC82D9E813F0039BC50 /* Build configuration list for PBXNativeTarget "TCAProject" */ = {
+		EF33864C2D9E836F00E94A5A /* Build configuration list for PBXNativeTarget "ProfileEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF127DC92D9E813F0039BC50 /* Debug */,
-				EF127DCA2D9E813F0039BC50 /* Release */,
+				EF33864D2D9E836F00E94A5A /* Debug */,
+				EF33864E2D9E836F00E94A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF127DB22D9E813D0039BC50 /* Project object */;
+	rootObject = EF3386362D9E836D00E94A5A /* Project object */;
 }
