@@ -14,7 +14,7 @@ import ComposableArchitecture
 @Reducer
 public struct ProfileEditReducer {
     @ObservableState
-    public struct State {
+    public struct State: Equatable {
         public var profile: ProfileModel
         
         public init(profile: ProfileModel) {

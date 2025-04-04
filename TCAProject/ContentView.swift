@@ -35,20 +35,14 @@ struct ContentView: View {
 
                 
             } destination: { store in
-                WithPerceptionTracking {
-                    switch store.state {
-                    case .makeProfileDetail(let store):
-//                        if let store = store.scope(state: \.makeProfileDetail, action: \.profileDetail) {
-                            WithPerceptionTracking {
-                                ProfileDetailView(store: store)
-                            }
-//                        }
-                    case .makeProfileEdit(let state):
-                        if let store = store.scope(state: \.makeProfileEdit, action: \.profileEdit) {
-                            WithPerceptionTracking {
-                                ProfileEditView(store: store)
-                            }
-                        }
+                switch store.case {
+                case .profileDetail(let store):
+                    WithPerceptionTracking {
+                        ProfileDetailView(store: store)
+                    }
+                case .profileEdit(let store):
+                    WithPerceptionTracking {
+                        ProfileEditView(store: store)
                     }
                 }
             }

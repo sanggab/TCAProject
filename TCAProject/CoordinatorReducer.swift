@@ -12,26 +12,26 @@ import ProfileDetailFeature
 
 import ComposableArchitecture
 
-@Reducer
-struct CoordinatorReducer {
-    @ObservableState
-    enum State {
-        case makeProfileDetail(ProfileDetailReducer.State)
-        case makeProfileEdit(ProfileEditReducer.State)
-    }
-    
-    enum Action {
-        case profileDetail(ProfileDetailReducer.Action)
-        case profileEdit(ProfileEditReducer.Action)
-    }
-    
-    var body: some ReducerOf<Self> {
-        Scope(state: \.makeProfileDetail, action: \.profileDetail) {
-            ProfileDetailReducer()
-        }
-        
-        Scope(state: \.makeProfileEdit, action: \.profileEdit) {
-            ProfileEditReducer()
-        }
-    }
-}
+//@Reducer
+//struct CoordinatorReducer {
+//    @ObservableState
+//    enum State {
+//        case makeProfileDetail(ProfileDetailReducer)
+//        case makeProfileEdit(ProfileEditReducer)
+//    }
+//    
+//    enum Action {
+//        case profileDetail(ProfileDetailReducer.Action)
+//        case profileEdit(ProfileEditReducer.Action)
+//    }
+//    
+//    var body: some ReducerOf<Self> {
+//        Scope(state: \.makeProfileDetail, action: \.profileDetail) {
+//            ProfileDetailReducer()
+//        }
+//        
+//        Scope(state: \.makeProfileEdit, action: \.profileEdit) {
+//            ProfileEditReducer()
+//        }
+//    }
+//}

@@ -14,9 +14,12 @@ import ComposableArchitecture
 @Reducer
 public struct ProfileDetailReducer {
     @ObservableState
-    public struct State {
-        public init() { }
+    public struct State: Equatable {
         public var profile: ProfileModel = .makingRandomModel()
+        
+        public init() {
+            
+        }
     }
     
     public enum Action {
@@ -39,6 +42,7 @@ public struct ProfileDetailReducer {
                 
                 return .none
             case .updateProfile(let model):
+                print("상갑 logEvent \(#function) updateProfile: \(model)")
                 state.profile = model
                 
                 return .none
