@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+import ComposableArchitecture
+
 @main
 struct TCAProjectApp: App {
+    let store: StoreOf<AppReducer> = .init(initialState: AppReducer.State()) {
+        AppReducer()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: store)
         }
     }
 }

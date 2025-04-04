@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		EF3386042D9E835100E94A5A /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE5CD522D9F63F20016CD0E /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EF3386092D9E835100E94A5A /* Exceptions for "Domain" folder in "Domain" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				Domain.h,
-			);
-			target = EF3386032D9E835100E94A5A /* Domain */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF3386062D9E835100E94A5A /* Domain */ = {
+		EFE5CD542D9F63F20016CD0E /* Network */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EF3386092D9E835100E94A5A /* Exceptions for "Domain" folder in "Domain" target */,
-			);
-			path = Domain;
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF3386012D9E835100E94A5A /* Frameworks */ = {
+		EFE5CD4F2D9F63F20016CD0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF3385FA2D9E835100E94A5A = {
+		EFE5CD482D9F63F20016CD0E = {
 			isa = PBXGroup;
 			children = (
-				EF3386062D9E835100E94A5A /* Domain */,
-				EF3386052D9E835100E94A5A /* Products */,
+				EFE5CD542D9F63F20016CD0E /* Network */,
+				EFE5CD532D9F63F20016CD0E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF3386052D9E835100E94A5A /* Products */ = {
+		EFE5CD532D9F63F20016CD0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF3386042D9E835100E94A5A /* Domain.framework */,
+				EFE5CD522D9F63F20016CD0E /* Network.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +48,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EF3385FF2D9E835100E94A5A /* Headers */ = {
+		EFE5CD4D2D9F63F20016CD0E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,64 +58,64 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EF3386032D9E835100E94A5A /* Domain */ = {
+		EFE5CD512D9F63F20016CD0E /* Network */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF33860A2D9E835100E94A5A /* Build configuration list for PBXNativeTarget "Domain" */;
+			buildConfigurationList = EFE5CD582D9F63F20016CD0E /* Build configuration list for PBXNativeTarget "Network" */;
 			buildPhases = (
-				EF3385FF2D9E835100E94A5A /* Headers */,
-				EF3386002D9E835100E94A5A /* Sources */,
-				EF3386012D9E835100E94A5A /* Frameworks */,
-				EF3386022D9E835100E94A5A /* Resources */,
+				EFE5CD4D2D9F63F20016CD0E /* Headers */,
+				EFE5CD4E2D9F63F20016CD0E /* Sources */,
+				EFE5CD4F2D9F63F20016CD0E /* Frameworks */,
+				EFE5CD502D9F63F20016CD0E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EF3386062D9E835100E94A5A /* Domain */,
+				EFE5CD542D9F63F20016CD0E /* Network */,
 			);
-			name = Domain;
+			name = Network;
 			packageProductDependencies = (
 			);
-			productName = Domain;
-			productReference = EF3386042D9E835100E94A5A /* Domain.framework */;
+			productName = Network;
+			productReference = EFE5CD522D9F63F20016CD0E /* Network.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF3385FB2D9E835100E94A5A /* Project object */ = {
+		EFE5CD492D9F63F20016CD0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					EF3386032D9E835100E94A5A = {
+					EFE5CD512D9F63F20016CD0E = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = EF3385FE2D9E835100E94A5A /* Build configuration list for PBXProject "Domain" */;
+			buildConfigurationList = EFE5CD4C2D9F63F20016CD0E /* Build configuration list for PBXProject "Network" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = EF3385FA2D9E835100E94A5A;
+			mainGroup = EFE5CD482D9F63F20016CD0E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EF3386052D9E835100E94A5A /* Products */;
+			productRefGroup = EFE5CD532D9F63F20016CD0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF3386032D9E835100E94A5A /* Domain */,
+				EFE5CD512D9F63F20016CD0E /* Network */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF3386022D9E835100E94A5A /* Resources */ = {
+		EFE5CD502D9F63F20016CD0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +125,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF3386002D9E835100E94A5A /* Sources */ = {
+		EFE5CD4E2D9F63F20016CD0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,7 +135,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF33860B2D9E835100E94A5A /* Debug */ = {
+		EFE5CD592D9F63F20016CD0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -171,7 +158,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.Network;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -181,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		EF33860C2D9E835100E94A5A /* Release */ = {
+		EFE5CD5A2D9F63F20016CD0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -204,7 +191,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimSangGab.Network;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -214,7 +201,7 @@
 			};
 			name = Release;
 		};
-		EF33860D2D9E835100E94A5A /* Debug */ = {
+		EFE5CD5B2D9F63F20016CD0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		EF33860E2D9E835100E94A5A /* Release */ = {
+		EFE5CD5C2D9F63F20016CD0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -342,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF3385FE2D9E835100E94A5A /* Build configuration list for PBXProject "Domain" */ = {
+		EFE5CD4C2D9F63F20016CD0E /* Build configuration list for PBXProject "Network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF33860D2D9E835100E94A5A /* Debug */,
-				EF33860E2D9E835100E94A5A /* Release */,
+				EFE5CD5B2D9F63F20016CD0E /* Debug */,
+				EFE5CD5C2D9F63F20016CD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF33860A2D9E835100E94A5A /* Build configuration list for PBXNativeTarget "Domain" */ = {
+		EFE5CD582D9F63F20016CD0E /* Build configuration list for PBXNativeTarget "Network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF33860B2D9E835100E94A5A /* Debug */,
-				EF33860C2D9E835100E94A5A /* Release */,
+				EFE5CD592D9F63F20016CD0E /* Debug */,
+				EFE5CD5A2D9F63F20016CD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF3385FB2D9E835100E94A5A /* Project object */;
+	rootObject = EFE5CD492D9F63F20016CD0E /* Project object */;
 }

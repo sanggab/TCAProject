@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct ProfileEditApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Profileedit
         }
     }
 }
